@@ -1,0 +1,646 @@
+html{scroll-behavior: smooth;}
+body{margin: 0px;
+}
+h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;}
+p,a,li,figcaption{
+  text-decoration: none;
+  font-family: 'Raleway',sans-serif;
+  font-size: 20px;
+}
+@font-face {
+    font-family: Nike;
+    src: url(../fonts/nike-logo-font/nike_font/Futura\ Std\ Extra\ Bold\ Condensed.ttf);
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eeeeee;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+h1, h2{
+    font-family: Nike, sans-serif;
+}
+header div{
+    height: 95px;
+    width: auto;
+}
+
+header nav menu{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav menu div{
+    display: flex;
+    padding: 10px;
+    margin-top: 70px;
+}
+  header nav menu li{
+    padding: 0px 10px;
+}
+  header nav menu a{
+    color: #0e0e0e;
+}
+header a:hover, header a:focus, header a:active{
+    color: #e1431e;
+}
+.jordan{
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    align-items:space-between;
+    margin: 0;
+}
+.jordan .search{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.jordan input{
+    width: 110%;
+}
+.jordan a{
+    width: 100%;
+    padding: 5%;
+    margin-top: 10px;
+}
+.jordan img{
+    height: 50px;
+    width: auto;
+    margin-top: 7px;
+}
+
+.logo img{
+    height: 100px;
+    width: auto;
+    margin-right: 30vh;
+}
+
+.masthead{
+    display: flex;
+    height: 500px;
+    width: auto;
+    background-color: #0e0e0e;
+}
+.masthead h1, .masthead p{
+    color: #f4f4f4;
+}
+.masthead h1{
+    font-size: 60px;
+}
+.heading{
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+.mast-img img{
+    height: 70%;
+    margin-top: 140px;
+}
+
+.button a{
+    background-color: #eeeeee;
+    border-radius: 18px;
+    padding: 10px;
+}
+.Trending{
+    text-align: center;
+}
+.Trending-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    text-align: center;
+}
+.shoe {
+    height: 350px;
+    width: auto;
+}
+.shoe figure{
+    height: 95%;
+    width: auto;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+.shoe figure img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.price{
+    padding-top: 14px;
+}
+.sport{
+    
+    height: 820px;
+    align-items: center;
+    margin-top: 10%;
+    background-color: #0e0e0e;
+}
+.sport h2{
+    padding-top: 3%;
+    text-align: center;
+    color: #f4f4f4;
+}
+.sport-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+.sport-item{
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+}
+.sport-item figure{
+    height: 95%;
+    width: auto;
+}
+.sport-item img{
+    height: 100%;
+    width: 100%;
+}
+.sport-item figcaption{
+    padding-left: 10%;
+    color: #f4f4f4;
+}
+
+.fitness{
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.sign-up{
+    height: 80%;
+    width: 48%;
+    text-align: center;
+    background-image: url(../images/Nike_svg.webp);
+    background-size: cover;
+}
+.sign-up h4{
+    font-size: 5vh;
+    color: #f4f4f4;
+    margin-top: 5%;
+}
+.sign-up .button{
+    margin-top: 15%;
+}
+.custom{
+    height: 80%;
+    width: 48%;
+    text-align: center;
+    background-image: url(../images/nike_custom.jpeg);
+    background-size: cover;
+}
+.custom h4{
+    font-size: 5vh;
+    color: #0e0e0e;
+    margin-top: 5%;
+}
+.custom .button{
+    margin-top: 15%;
+}
+.nike-footer{
+    background-color: #0e0e0e;
+    height: 200px;
+}
+.nike-footer p, .nike-footer a{
+    color: #f4f4f4;
+}
+.foot-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.get-help, .About, .social{
+    display: flex;
+    flex-direction: column;
+}
+.foot-logo{
+    width: 35%;
+    height: auto;
+}
+.foot-logo img{
+    height: 100px;
+    width: auto;
+}
+
+/*Product page styling*/
+
+
+.jordan-header{
+    height: 58vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e0e0e;
+}
+.jordan-header a{
+    color: #f4f4f4;
+}
+.jordan-header .nike img{
+    height: 30px;
+}
+.jordan-header .logo img{
+    height: 100%;
+    width: auto;
+}
+.jordan-header .logo{
+    height: 30%;
+    width: auto;
+    margin-left: 13%;
+}
+.jordan-mast-video{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.jordan-mast-video
+video{
+    position: absolute;
+}
+.jordan-mast-video h1{
+    font-size: 80px;
+    color: #f4f4f4;
+}
+.jordan-masthead{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 4%;
+    height: 400px;
+}
+.jordan-masthead h2{
+    font-size: 40px;
+}
+.jordan-masthead p{
+    color: #0e0e0e;
+    padding: 5%;
+    font-size: 22px;
+}
+.jordan-masthead img{
+    height: 70vh;
+    width: auto;
+}
+.essentials{
+    height: 500px;
+    width: auto;
+    background-color: #000;
+}
+.essentials h2{
+    text-align: center;
+    font-size: 30px;
+    color: #eeeeee;
+}
+.essentials figcaption{
+    color: #f4f4f4;
+}
+.essentials-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    align-items: center;
+}
+.essentials-grid .shoe figcaption{
+    margin-left: 9%;
+}
+
+.jordan-mid{
+    height: 480px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color:#f4f4f4 ;
+}
+.jordan-mid > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.jordan-mid >div > h2{
+    font-size: 40px;
+}
+.jordan-mid >div > p{
+    font-size: 22px;
+}
+
+.jordan-mid  img{
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
+
+.gen{
+    height: 100vh;
+    width: auto;
+    padding: 5%;
+}
+.gen-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 80vh;   
+    margin: 0;
+}
+.gen-item{
+    text-align: center;
+    align-items: center;
+}
+.gen-item img{
+    height: 380px;
+    width: 100%;
+    padding: 5%;
+}
+.gen h2{
+    text-align: center;
+    font-size: 40px;
+}
+.jordan-4{
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+    align-items: center;
+    background-color: #0e0e0e;
+    text-align: center;
+    padding: 5%;
+}
+.jordan-4 div h3{
+    color: #f4f4f4;
+    font-size: 40px;
+}
+
+.jordan-4 > div > img{
+    height: 380px;
+    width: auto;
+    padding: 20px;
+}
+
+.sale {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    background-color: #e1431e;
+    padding: 3px;
+}
+.sale h4{
+    color: #f4f4f4;
+}
+
+
+/*About Page*/
+.purpose-head{
+    height: 720px;
+    width: auto;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.purpose-head h2{
+    font-size: 30px;
+    color: #f4f4f4;
+}
+.purpose-head h1{
+    font-size: 128px;
+    color: #f4f4f4;
+}
+.purpose-video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.stories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    height: 600px;
+    width: auto;
+    padding: 5% ;
+    margin-bottom: 5%;
+    padding-bottom: 25%;
+}
+.stories h2{
+    font-size: 100px;
+}
+.stories h3{
+    margin-top: 5%;
+}
+.stories p{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.stories-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    height: 40%;
+}
+.stories-grid img{
+    height: 80%;
+    width: 100%;
+}
+.careers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    position: relative;
+    background-color: #000;
+}   
+.careers-video{
+    height: 50%;
+    width: auto;
+}
+.careers-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.careers-head h2{
+    color: #f4f4f4;
+    font-size: 30px;
+}
+.future{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+.future h3{
+    font-size: 80px;
+}
+.about-header{
+    background-color: #0e0e0e;
+}
+.about-header img{
+    height: 90%;
+}
+.about-header a, .about-header input, .about-header button{
+    color: #f4f4f4;
+}
+header form{
+    padding: 10%;
+    width: 30%;
+    height: auto;
+    text-align:left;
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    height: 250px;
+    width: auto;
+}
+.help h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.help form{
+    width: 70%;
+    align-items: center;
+    height: 25%;
+}
+.help form input{
+    width: 90%;
+    height: 40%;
+    border-radius: 10px;
+    
+}
+.assits{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.assits-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    
+}
+.contact{
+    padding: 2% 5%;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+}
+.contact-forma h4{
+    font-family: Nike;
+    font-size: 20px;
+    font-weight: 500;
+}
+.tab{
+    padding: 1%;
+}
+.contact-form div:nth-child(3) input{
+    height: 50px;
+    width: 100%;
+}
+.contact-form button{
+    border: solid 2px #0e0e0e;
+    border-radius: 10px;
+}
+
+.button a:hover{
+    background-color: #e1431e;
+    color: #f4f4f4;
+}
+.button a{
+    text-decoration: none;
+    color: #e1431e;
+    transition: all .25s linear;
+}
+
+footer{
+    height: 30vh;
+    padding: 2% 5%;
+}
+footer a{
+    transition: all .25s linear;
+}
+footer a:hover{
+    color:#e1431e;
+}
+header a{
+    transition: all .25s linear;
+}
+.price{
+    font-weight: 500;
+    font-family: Nike;
+    color: #e1431e;
+}
+
+@media (max-width: 720px){
+    .nike-head {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+        text-align: center;
+    }
+    .nike-head .jordan
+    .nike-head a{
+        font-size: 20px;
+    }
+    .masthead img{
+        height: 60%;
+    }
+    .Trending-grid{
+        grid-template-columns: repeat(1, 100%);
+    }
+    .shoe{
+        padding: 8%;
+    }
+    .shoe p{
+        padding: 4%;
+    }
+    .sport-grid{
+        grid-template-columns: repeat(2, 50%);
+        height: 90%;
+    }
+    .sport-item {
+        padding: 5%;
+    }
+    .sport-item img{
+        height: 100px;
+        width: auto;
+    }
+    .sport{
+        height: 600px;
+    }
+    .fitness{
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+    }
+    .fitness .sign-up img{
+        height: auto;
+        width: 100%;
+    }
+
+}
